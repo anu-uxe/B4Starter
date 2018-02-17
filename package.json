@@ -1,0 +1,24 @@
+{
+  "name": "BS4TplStarter",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 HTML Template Starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "line-awesome": "github:icons8/line-awesome"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "author": "Anuruddha Hettiarachchi",
+  "license": "MIT"
+}

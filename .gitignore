@@ -1,0 +1,13 @@
+.DS_Store
+public/vendor/
+node_modules/
+bower_components/
+src/img/
+tmp/
+/.bundle
+.sass-cache/
+*.css.map
+*.log
+npm-debug.log*
+.npm
+README.md

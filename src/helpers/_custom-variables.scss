@@ -1,0 +1,12 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules
+// =============================================================================
+
+$font-family-base: 'Roboto', sans-serif;
+
+// define your own variables here
+// =============================================================================
+$body-bg:yellow;
+$body-color:black;
+$footer-bg: blue;
