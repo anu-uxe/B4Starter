@@ -1,29 +1,29 @@
-// import google fonts
+// import google fonts <- import your google fonts here
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,900);
 
-// import variables
+// import variables <- Override bootstrap core variables and define your own variables
 @import "helpers/custom-variables";
 
-// import mixins
+// import mixins <- define your mixins
 @import "helpers/mixins";
 
-/* bootstrap core styles */
+/* bootstrap core styles <- This is path to core bootstrap files */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Import Header
+// Import Header <- define styles for header
 @import "partials/header";
 
-// Import Sidebar
+// Import Sidebar <- Define styles for sidebar
 @import "partials/sidebar";
 
-// Import Navigation
+// Import Navigation <- Define styles for Navigations
 @import "partials/navigation";
 
-// Import Footer
+// Import Footer <- Define styles for footer
 @import "partials/footer";
 
-// Import Pages
+// Import Pages <- Define styles for pages. import all the pages into pages.scss(Check pages.scss)
 @import "pages/pages";
 
-// Import Hacks
+// Import Hacks <- Things that you think which could be done better
 @import "partials/shame";
