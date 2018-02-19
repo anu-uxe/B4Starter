@@ -10,4 +10,5 @@ tmp/
 *.log
 npm-debug.log*
 .npm
-README.md
+.*
+!/.gitignore
