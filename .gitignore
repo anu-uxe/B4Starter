@@ -10,4 +10,6 @@ tmp/
 *.log
 npm-debug.log*
 .npm
-README.md
+._README.md
+._gulpfile.js
+._src
