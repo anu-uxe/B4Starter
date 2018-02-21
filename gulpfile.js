@@ -17,6 +17,13 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
+// Compile themes
+gulp.task('themes', function() {
+    return gulp.src(['src/themes/*.scss'])
+        .pipe(sass())
+        .pipe(gulp.dest("public/themes"))
+        .pipe(browserSync.stream());
+});
 
 
 // Move JS Files to public/js
@@ -33,7 +40,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./public"
     });
 
-    gulp.watch(['src/helpers/*.scss','src/partials/*.scss','src/styles.scss','src/pages/*.scss'], ['sass']);
+    gulp.watch(['src/helpers/*.scss','src/partials/*.scss','src/styles.scss','src/pages/*.scss','src/themes/*.scss'], ['sass']);
     gulp.watch(['src/scripts/app.js'], ['scripts']);
     gulp.watch("public/*.html").on('change', browserSync.reload);
 
@@ -59,7 +66,7 @@ gulp.task('fa', function() {
 
 // Move scripts file to public/js
 gulp.task('scripts', function() {
-  return gulp.src('src/scripts/app.js')
+  return gulp.src('src/scripts/*.js')
     .pipe(gulp.dest('public/js'))
 });
 
@@ -72,4 +79,4 @@ gulp.task('minify-css', function () {
 
 
 
-gulp.task('default', ['js','serve', 'fonts','imgs','fa','scripts','minify-css']);
+gulp.task('default', ['js','serve', 'themes', 'fonts','imgs','fa','scripts','minify-css']);

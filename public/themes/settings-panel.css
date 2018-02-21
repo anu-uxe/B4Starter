@@ -1,0 +1,94 @@
+/*
+    Document   : settings-panel
+    Created on : Nov 28, 2012, 12:52:26 PM
+    Author     : anuruddhah
+    Description:
+    Purpose of the stylesheet follows.
+*/
+#settings-panel {
+  font-family: 'Open Sans', sans-serif;
+  width: 200px;
+  height: 400px;
+  position: fixed;
+  top: 100px;
+  left: -220px;
+  z-index: 99999999;
+  background-color: #EFEFEF;
+  padding-left: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+#settings-panel .panel-heading {
+  border-bottom: 1px solid #C5C5C5;
+  width: 200px;
+  padding: 10px;
+  left: -20px;
+  position: relative;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  background-color: #E5E5E5; }
+
+#settings-panel .settings-row {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6; }
+
+#settings-panel .settings-row p {
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #FFFFFF;
+  color: #494949; }
+
+#settings-panel .settings-row ul {
+  margin: 0; }
+
+#settings-panel .settings-row ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
+
+#settings-panel .settings-row ul li a {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fff;
+  display: block; }
+
+#settings-panel-tab {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 34px;
+  right: -50px;
+  background-color: #484848;
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+
+#settings-panel-tab:focus {
+  outline: none; }
+
+/*Background colors*/
+.gray-bg {
+  background-color: #ddd; }
+
+.blue-bg {
+  background-color: #25719e; }
+
+.default-bg {
+  background-color: #fff; }
+
+/*Background Image*/
+.binding_dark {
+  background: url("../img/backgrounds/binding_dark.png") repeat; }
+
+.dark_wood {
+  background: url("../img/backgrounds/dark_wood.png") repeat; }
+
+.groovepaper {
+  background: url("../img/backgrounds/groovepaper.png") repeat; }
+
+.white_wall {
+  background: url("../img/backgrounds/white_wall.png") repeat; }
