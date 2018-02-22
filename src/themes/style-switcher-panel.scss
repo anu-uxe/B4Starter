@@ -1,0 +1,53 @@
+
+#settings-panel {
+    font-family: 'Open Sans', sans-serif;
+	width: 220px;
+	height: 200px;
+	position: fixed;
+	top: 100px;
+	left: -220px;
+	z-index: 10;
+	background-color: rgb(255, 255, 255);
+    padding: 30px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	
+	.panel-heading{
+		font-size: 1.0em;
+		padding: 0 0 10px 0;
+		font-weight: bold;
+		border-bottom: 1px solid rgb(231, 231, 231);
+	}
+
+	.settings-row{
+		p{font-size: 0.9em;
+		color:rgb(22, 231, 179);}
+	}
+}
+
+
+#settings-panel-tab {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 34px;
+	right: -50px;
+	background-color: #367c07;
+	text-decoration: none;
+	color: #FFFFFF;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 10px 10px 0px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	
+	i{
+		font-size:32px;
+		margin: 8px 0 0 7px;
+	}
+        
+}
+
+
+#settings-panel-tab:focus {
+	outline: none;
+}
+
+
