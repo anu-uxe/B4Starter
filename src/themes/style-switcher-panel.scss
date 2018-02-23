@@ -1,3 +1,4 @@
+@import "theme-colors";
 
 #settings-panel {
     font-family: 'Open Sans', sans-serif;
@@ -20,7 +21,29 @@
 
 	.settings-row{
 		p{font-size: 0.9em;
-		color:rgb(22, 231, 179);}
+		color:rgb(147, 147, 147);}
+
+		ul{margin: 0;padding: 0;
+			li{
+				list-style: none;
+				list-style-type: none;
+				display: inline-block;
+				a{
+					width: 30px;
+					height: 30px;
+					display: block;	
+				}	
+			}
+
+			.purple{
+				background-color: $purple;
+				}
+
+			.reset{
+				background-color: $reset;
+				border:1px solid rgb(235, 235, 235);
+			}
+		} 
 	}
 }
 
@@ -31,7 +54,7 @@
 	position: absolute;
 	top: 34px;
 	right: -50px;
-	background-color: #367c07;
+	background-color: #c10063;
 	text-decoration: none;
 	color: #FFFFFF;
     -webkit-border-radius: 0px 3px 3px 0px;

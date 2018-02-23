@@ -1,1 +1,3 @@
-body{background-color: rgb(42, 77, 230);}
+@import "theme-colors";
+
+body{color: $purple;}

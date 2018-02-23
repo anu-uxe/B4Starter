@@ -16,7 +16,23 @@
     border-bottom: 1px solid #e7e7e7; }
   #settings-panel .settings-row p {
     font-size: 0.9em;
-    color: #16e7b3; }
+    color: #939393; }
+  #settings-panel .settings-row ul {
+    margin: 0;
+    padding: 0; }
+    #settings-panel .settings-row ul li {
+      list-style: none;
+      list-style-type: none;
+      display: inline-block; }
+      #settings-panel .settings-row ul li a {
+        width: 30px;
+        height: 30px;
+        display: block; }
+    #settings-panel .settings-row ul .purple {
+      background-color: #cd005f; }
+    #settings-panel .settings-row ul .reset {
+      background-color: white;
+      border: 1px solid #ebebeb; }
 
 #settings-panel-tab {
   width: 50px;
@@ -24,7 +40,7 @@
   position: absolute;
   top: 34px;
   right: -50px;
-  background-color: #367c07;
+  background-color: #c10063;
   text-decoration: none;
   color: #FFFFFF;
   -webkit-border-radius: 0px 3px 3px 0px;
