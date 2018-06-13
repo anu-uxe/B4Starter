@@ -6,7 +6,7 @@ const rename        = require('gulp-rename');
 const sourcemaps    = require('gulp-sourcemaps');
 
 
-// Static Server + watching scss/html and js files
+// // Watch Sass & Serve
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
