@@ -10,7 +10,8 @@
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "line-awesome": "github:icons8/line-awesome"
+    "line-awesome": "github:icons8/line-awesome",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
