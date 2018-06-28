@@ -23,7 +23,7 @@ gulp.task('sass', function() {
     return gulp.src(["src/**/*.scss"],['sass'])
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(sourcemaps.write("./"))
+        .pipe(sourcemaps.write("./map"))
         .pipe(gulp.dest("public/styles"))
         .pipe(browserSync.stream());
 });
