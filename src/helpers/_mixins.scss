@@ -1,1 +1,12 @@
-/* Mixins */
+// Mixins
+
+// Bootstrap responsive breakpoints
+// https://getbootstrap.com/docs/4.1/layout/overview/
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+// usage
+// @include media-breakpoint-up(xs) { ... }
+// @include media-breakpoint-down(xs) { ... }
+// @include media-breakpoint-only(xs) { ... }
+// @include media-breakpoint-between(md, xl) { ... }
