@@ -10,11 +10,12 @@
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "line-awesome": "github:icons8/line-awesome"
+    "line-awesome": "github:icons8/line-awesome",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.8.11",
     "gulp-cssmin": "^0.2.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4"

@@ -1,5 +1,6 @@
 # Bootstrap 4 SASS Starter Template
-Bootstrap 4.0.0 starter template and development environment with gulp and sass. Install dependencies with npm. 
+
+This is basic Bootstrap 4.0.0 starter template and development environment with gulp and sass. 
 
 ### Install Dependencies
 

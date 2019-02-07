@@ -1,3 +1,15 @@
+// Import mixins
+@import "helpers/mixins";
+
+// Import custom variables
+@import "helpers/custom-variables";
+
+// Import Global <- define global css classes
+@import "partials/global";
+
+// Import Laouts <- define styles for layout classes
+@import "partials/layout";
+
 // Import Header <- define styles for header
 @import "partials/header";
 
